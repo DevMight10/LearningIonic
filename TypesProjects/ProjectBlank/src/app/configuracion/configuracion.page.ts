@@ -3,19 +3,15 @@ import { IonHeader, IonToolbar, IonTitle, IonContent, IonButton } from '@ionic/a
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
+  selector: 'app-configuracion',
+  templateUrl: 'configuracion.page.html',
+  styleUrls: ['configuracion.page.scss'],
   imports: [IonHeader, IonToolbar, IonTitle, IonContent, IonButton],
 })
-export class HomePage {
+export class ConfiguracionPage {
   constructor(private router: Router) {}
 
-  irAPerfil() {
-    this.router.navigate(['/perfil']);
+  volverAHome() {
+    this.router.navigate(['/home']);
   }
-
-  irAConfiguracion() {
-    this.router.navigate(['/configuracion']);
-  }
-}
+} 
