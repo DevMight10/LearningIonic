@@ -1,0 +1,61 @@
+.contenido {
+  padding: 24px;
+  background: #181818;  /* Fondo oscuro */
+  min-height: 100vh;    /* Ocupa todo el alto de la pantalla */
+}
+
+ion-card {
+  margin-bottom: 24px;
+  border-radius: 16px;   /* Bordes redondeados */
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2); /* Sombra suave */
+  background: #242424;   /* Fondo más claro que el fondo general */
+  color: #fff;
+}
+
+ion-card-title,
+ion-card-content p {
+  color: #90caf9;  /* Azul clarito */
+  font-size: 22px;
+}
+
+ion-item {
+  --background: #23272f; /* Fondo de cada item */
+  border-radius: 10px;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+ion-label {
+  color: #90caf9; /* Azul clarito */
+  font-weight: 600;
+}
+
+ion-input {
+  color: #fff;     /* Texto blanco */
+  border-bottom: 1px solid #90caf9;
+  margin-bottom: 6px;
+  padding-bottom: 4px;
+}
+
+ion-button {
+  margin: 24px 0 16px 0;
+  font-size: 18px;
+  --background: #1976d2;   /* Azul */
+  --background-activated: #1565c0;
+  --border-radius: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+ion-list-header {
+  color: #ffea00;
+  font-size: 18px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+ion-checkbox {
+  --checkbox-background: #181818;
+  --checkbox-background-checked: #43a047; /* Verde cuando está seleccionado */
+  --checkmark-color: #fff;
+}
