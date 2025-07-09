@@ -1,0 +1,19 @@
+En ionic existen 3 clases de proyectos 
+1. blank
+2. sidemenus 
+3. tabs
+
+Instalar 
+ionic start NombreProyecto
+
+abrir en web
+ionic serve
+
+abrir en android studio
+- npm run build
+- npm install @capacitor/android
+- npx cap add android
+- npx cap open android
+
+- ionic build 
+- npx cap coy

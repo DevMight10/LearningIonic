@@ -1,0 +1,7 @@
+{
+  "name": "SideMenus",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
